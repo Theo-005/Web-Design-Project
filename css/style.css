@@ -1,43 +1,61 @@
+/* css for both webpages */
 body{
 	background-color:#EFECE3;
 }
 
 h1{
+	color:#EFECE3;
 	text-align:center;
 	background-color:#4A70A9;
 	font-family: "Marcellus", serif;
     font-weight: 400;
     font-style: normal;
-	padding:2%;
+	padding:3%;
 }
 
 p{
 	font-family: "Marcellus", serif;
 	font-weight: 400;
 	font-style: normal;
+	margin-bottom:3%;
 	
 }
+
+.button {
+	color:black;
+	border: none;
+	background-color:#EFECE3;
+	padding: 1.5% 3%;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius:25px;
+	font-family: "Marcellus", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 
 /* Introduction section */
 .intro{
 	background-color:#8FABD4;
 	border-radius:25px;
 	padding:3%;
-	margin-top:25px;
+	margin-top:3%;
 }
 
 .introCity{
-	height:250px;
-	width:300px;
+	height:30%;
+	width:35%;
 	float:left;
-	padding-right:25px;
+	padding-right:3%;
 }
 
 .introCityTwo{
-	height:250px;
-	width:300px;
+	height:30%;
+	width:40%;
 	float:right;
-	padding-left:25px;
+	padding-left:3%;
 }
 
 /* Research preview section */
@@ -45,32 +63,22 @@ p{
 	background-color:#8FABD4;
 	border-radius:25px;
 	padding:3%;
-	margin-top:25px;
+	margin-top:3%;
 }
 
 .rPreviewBike{
-	height:250px;
-	width:300px;
+	height:30%;
+	width:35%;
 	float:right;
-	padding-left:25px;
+	padding-left:3%;
 }
 
-.button {
-	color:black;
-	border: none;
-	background-color:#EFECE3;
-	padding: 15px 32px;
-	text-decoration: none;
-	display: inline-block;
-	cursor: pointer;
-	border-radius:25px;
-}
 
 /* image carousel */
 .carousel{
-	height:800px;
-	width:900px;
-	padding-top:25px;
+	height:60%;
+	width:75%;
+	padding-top:3%;
 	margin-left:10%;
 }
 
@@ -79,44 +87,42 @@ p{
 	background-color:#8FABD4;
 	border-radius:25px;
 	padding:3%;
-	margin-top:25px;
+	margin-top:3%;
 }
 
 .rBikes{
-	height:350px;
-	width:500px;
+	height:35%;
+	width:40%;
 	float:left;
-	padding-right:25px;
+	padding-right:3%;
 }
 
 .rBus{
-	height:350px;
-	width:500px;
+	height:60%;
+	width:50%;
 	float:right;
-	padding-left:25px;
+	padding-left:3%;
+}
+
+#aButton{
+	margin-left:85%;
 }
 
 .rCity{
-	height:350px;
-	width:500px;
+	height:40%;
+	width:45%;
 	float:left;
-	padding-right:25px;
+	padding-right:3%;
 }
 
 .rCityTwo{
-	height:350px;
-	width:500px;
+	height:50%;
+	width:55%;
 	float:right;
-	padding-left:25px;
+	padding-left:3%;
 }
 
-.button{
-	color:black;
-	border: none;
-	background-color:#EFECE3;
-	padding: 15px 32px;
-	text-decoration: none;
-	display: inline;
-	cursor: pointer;
-	border-radius:25px;
+#bButton{
+	margin-left:85%;
 }
+
