@@ -5,11 +5,8 @@
 	background-color:#EFECE3;
 }
 
-
 #navbar{
 	background-color:#8FABD4;
-	color:#EFECE3;
-	margin-top:0px;
 }
 
 .ls_h1{
@@ -46,6 +43,10 @@
 
 div{
 	margin-bottom: 5%;
+}
+
+.logo{
+	border-radius:50px;
 }
 
 @media screen and (min-width: 461px) and (max-width: 1920px) {
