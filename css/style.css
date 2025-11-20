@@ -5,6 +5,7 @@
 	background-color:#EFECE3;
 }
 
+
 #navbar{
 	background-color:#8FABD4;
 	color:#EFECE3;
@@ -26,7 +27,6 @@
 	font-family: "Marcellus", serif;
 	font-weight: 400;
 	font-style: normal;
-	margin-bottom:3%;
 	
 }
 
@@ -44,10 +44,13 @@
 	font-style: normal;
 }
 
-
+div{
+	margin-bottom: 5%;
+}
 
 @media screen and (min-width: 461px) and (max-width: 1920px) {
 	/* Introduction section */
+	
 	.intro{
 		background-color:#8FABD4;
 		border-radius:25px;
@@ -56,15 +59,15 @@
 	}
 
 	.introCity{
-		height:30%;
-		width:35%;
+		height:40%;
+		width:45%;
 		float:left;
 		padding-right:3%;
 	}
 
 	.introCityTwo{
-		height:30%;
-		width:40%;
+		height:40%;
+		width:50%;
 		float:right;
 		padding-left:3%;
 	}
@@ -80,8 +83,8 @@
 	}
 
 	.rPreviewBike{
-		height:30%;
-		width:35%;
+		height:80%;
+		width:45%;
 		float:right;
 		padding-left:3%;
 	}
@@ -104,7 +107,7 @@
 	}
 
 	.rBikes{
-		height:35%;
+		height:75%;
 		width:40%;
 		float:left;
 		padding-right:3%;
@@ -115,7 +118,7 @@
 	}
 
 	.rBus{
-		height:60%;
+		height:70%;
 		width:50%;
 		float:right;
 		padding-left:3%;
@@ -126,7 +129,7 @@
 	}
 
 	.rCity{
-		height:40%;
+		height:80%;
 		width:45%;
 		float:left;
 		padding-right:3%;
@@ -137,7 +140,7 @@
 	}
 
 	.rCityTwo{
-		height:50%;
+		height:80%;
 		width:55%;
 		float:right;
 		padding-left:3%;
@@ -150,7 +153,8 @@
 
 /* mobile version */
 @media screen and (min-width: 360px) and (max-width: 460px) {
-		/* Introduction section */
+	/* Introduction section */	
+		
 	.intro{
 		background-color:#8FABD4;
 		border-radius:25px;
@@ -160,17 +164,17 @@
 	}
 
 	.introCity{
-		height:70%;
+		height:20%;
 		width:75%;
 		padding-bottom:3%;
 		margin-left:10%;
 	}
 
 	.introCityTwo{
-		height:70%;
-		width:75%;
+		height:20%;
+		width:85%;
 		padding-bottom:3%;
-		margin-left:10%;
+		margin-left:6%;
 	}
 	
 	
@@ -184,10 +188,10 @@
 	}
 
 	.rPreviewBike{
-		height:70%;
-		width:75%;
+		height:30%;
+		width:85%;
 		padding-bottom:3%;
-		margin-left:10%;
+		margin-left:8%;
 	}
 
 
@@ -208,29 +212,29 @@
 	}
 
 	.rBikes{
-		height:70%;
+		height:30%;
 		width:75%;
 		padding-bottom:3%;
 		margin-left:10%;
 	}
 
 	.rBus{
-		height:70%;
-		width:75%;
+		height:30%;
+		width:85%;
 		padding-bottom:3%;
-		margin-left:10%;
+		margin-left:6%;
 	}
 
 
 	.rCity{
-		height:70%;
+		height:30%;
 		width:75%;
 		padding-bottom:3%;
 		margin-left:10%;
 	}
 
 	.rCityTwo{
-		height:70%;
+		height:30%;
 		width:75%;
 		padding-bottom:3%;
 		margin-left:10%;
