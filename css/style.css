@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (min-width: 461px) and (max-width: 1920px) {
+@media screen and (min-width: 981px) and (max-width: 1920px) {
 	/* Introduction section */
 	
 	.intro{
@@ -67,7 +67,7 @@
 	}
 	
 
-	/* Research preview section */
+	/* Research preview section on the home page*/
 
 	.rPreview{
 		background-color:#8FABD4;
@@ -136,6 +136,112 @@
 	.rCityTwo{
 		height:80%;
 		width:55%;
+		float:right;
+		padding-left:3%;
+	}
+
+	#dButton{
+		margin-left:70%;
+	}
+}
+
+@media screen and (min-width: 461px) and (max-width: 980px) {
+	/* Introduction section */
+	
+	.intro{
+		background-color:#8FABD4;
+		border-radius:25px;
+		padding:3%;
+		margin-top:3%;
+		padding-bottom:20%;
+	}
+
+	.introCity{
+		height:30%;
+		width:45%;
+		float:left;
+		padding-right:3%;
+	}
+
+	.introCityTwo{
+		height:30%;
+		width:40%;
+		float:right;
+		padding-left:3%;
+	}
+	
+
+	/* Research preview section on the home page*/
+
+	.rPreview{
+		background-color:#8FABD4;
+		border-radius:25px;
+		padding:3%;
+		margin-top:3%;
+		padding-bottom:20%;
+	}
+
+	.rPreviewBike{
+		height:60%;
+		width:45%;
+		float:right;
+		padding-left:3%;
+	}
+
+
+	/* image carousel */
+	.carousel{
+		height:60%;
+		width:75%;
+		padding-top:3%;
+		margin-left:10%;
+	}
+
+	/* research overview page */
+	.research{
+		background-color:#8FABD4;
+		border-radius:25px;
+		padding:3%;
+		margin-top:3%;
+		padding-bottom:20%;
+	}
+
+	.rBikes{
+		height:55%;
+		width:60%;
+		float:left;
+		padding-right:3%;
+	}
+	
+	#aButton{
+		margin-left:10%;
+	}
+
+	.rBus{
+		height:50%;
+		width:70%;
+		float:right;
+		padding-left:3%;
+	}
+
+	#bButton{
+		margin-left:70%;
+	}
+
+	.rCity{
+		height:50%;
+		width:65%;
+		float:left;
+		padding-right:3%;
+	}
+	
+	#cButton{
+		margin-left:10%;
+	}
+
+	.rCityTwo{
+		height:50%;
+		width:65%;
 		float:right;
 		padding-left:3%;
 	}
