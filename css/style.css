@@ -27,6 +27,10 @@
 	
 }
 
+.title{
+	text-decoration:underline;
+}
+
 .button {
 	color:black;
 	border: none;
