@@ -217,9 +217,7 @@
 		padding-right:3%;
 	}
 	
-	#aButton{
-		margin-left:10%;
-	}
+	
 
 	.rBus{
 		height:50%;
@@ -228,9 +226,7 @@
 		padding-left:3%;
 	}
 
-	#bButton{
-		margin-left:70%;
-	}
+	
 
 	.rCity{
 		height:50%;
@@ -239,9 +235,7 @@
 		padding-right:3%;
 	}
 	
-	#cButton{
-		margin-left:10%;
-	}
+	
 
 	.rCityTwo{
 		height:50%;
@@ -250,8 +244,8 @@
 		padding-left:3%;
 	}
 
-	#dButton{
-		margin-left:70%;
+	.button{
+		margin-left:35%;
 	}
 }
 
