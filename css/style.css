@@ -46,16 +46,15 @@
 	margin-left:120px;
 }
 
-
-
-	/* Introduction section */
-	
-	.intro{
+.box{
 		background-color:#8FABD4;
 		border-radius:25px;
 		padding:30px;
 		margin-top:30px;
 	}
+
+	/* Introduction section */
+	
 
 	.introCity{
 		height:300px;
@@ -74,13 +73,6 @@
 
 	/* Research preview section on the home page*/
 
-	.rPreview{
-		background-color:#8FABD4;
-		border-radius:25px;
-		padding:30px;
-		margin-top:30px;
-	}
-
 	.rPreviewBike{
 		height:300px;
 		width:450px;
@@ -96,12 +88,6 @@
 	}
 
 	/* research overview page */
-	.research{
-		background-color:#8FABD4;
-		border-radius:25px;
-		padding:30px;
-		margin-top:30px;
-	}
 
 	.rBikes{
 		height:300px;
