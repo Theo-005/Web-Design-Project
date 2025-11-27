@@ -90,7 +90,7 @@
 
 	/* research overview page */
 
-	.rBikes{
+	.rWindmills{
 		height:300px;
 		width:400px;
 		float:left;
@@ -114,9 +114,9 @@
 	}
 	
 	
-	.rCityTwo{
-		height:275px;
-		width:455px;
+	.rHeritage{
+		height:500px;
+		width:450px;
 		float:right;
 		padding-left:30px;
 	}
