@@ -67,7 +67,7 @@
 			</div>
 	
 		<!-- research one preview -->
-		<div class="research box">
+		<div class="research box" id="boxOne" onmouseover="lightUp()" onmouseout="fadeOut()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
 				<!-- https://www.pexels.com/photo/young-diverse-women-crossing-road-with-bikes-5965987/ -->
@@ -83,7 +83,7 @@
 		
 			
 		<!-- research two preview -->
-		<div class="research box">
+		<div class="research box" id="boxTwo" onmouseover="lightUpTwo()" onmouseout="fadeOutTwo()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
 				<!-- https://www.pexels.com/photo/bus-on-street-in-jakarta-15246898/ -->
@@ -98,7 +98,7 @@
 		</div>
 			
 		<!-- research three preview -->
-		<div class="research box">
+		<div class="research box" id="boxThree" onmouseover="lightUpThree()" onmouseout="fadeOutThree()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
 				<!-- https://www.pexels.com/photo/skyscrapers-towering-over-park-13919140/ -->
@@ -113,7 +113,7 @@
 		</div>
 			
 		<!-- research four preview -->
-		<div class="research box">
+		<div class="research box" id="boxFour" onmouseover="lightUpFour()" onmouseout="fadeOutFour()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
 				<!-- https://www.pexels.com/photo/aerial-view-of-singapore-city-skyline-34035025/ -->
@@ -126,6 +126,48 @@
 				</div>
 			</div>
 		</div>
+		
+		<script>
+				function lightUp(){
+					let targetBox = document.getElementById("boxOne");
+					targetBox.style.opacity = "1.0";
+				}
+				
+				function fadeOut(){
+					let targetBox = document.getElementById("boxOne");
+					targetBox.style.opacity = "";
+				}
+				
+				function lightUpTwo(){
+					let targetBoxTwo = document.getElementById("boxTwo");
+					targetBoxTwo.style.opacity = "1.0";
+				}
+				
+				function fadeOutTwo(){
+					let targetBoxTwo = document.getElementById("boxTwo");
+					targetBoxTwo.style.opacity = "";
+				}
+				
+				function lightUpThree(){
+					let targetBoxThree = document.getElementById("boxThree");
+					targetBoxThree.style.opacity = "1.0";
+				}
+				
+				function fadeOutThree(){
+					let targetBoxThree = document.getElementById("boxThree");
+					targetBoxThree.style.opacity = "";
+				}
+				
+				function lightUpFour(){
+					let targetBoxFour= document.getElementById("boxFour");
+					targetBoxFour.style.opacity = "1.0";
+				}
+				
+				function fadeOutFour(){
+					let targetBoxFour = document.getElementById("boxFour");
+					targetBoxFour.style.opacity = "";
+				}
+		</script>
 			
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 		</div>

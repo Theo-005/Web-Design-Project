@@ -70,32 +70,33 @@
 			
 		<!-- Introduction piece -->
 			
-			<div class="intro box">
+			<div class="intro box" id="boxOne" onmouseover="lightUp()" onmouseout="fadeOut()">
 				<div class="row spacer-top">
 					<div class="col-sm-12">
 					<!-- https://www.pexels.com/photo/road-near-the-glass-buildings-6016829/ -->
 						<img src="images/introCity.jpg" alt="Picture of a city with trees lining the road" class="introCity">
 					
 						<h3 class="ls_p title">Intro</h3>
-						<p class="ls_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="ls_p">Urbanization is expanding rapidly, with cities expected to house nearly 70% of the world’s population by 2050. However, this growth comes with serious challenges, including rising poverty, inadequate housing, strained transport systems, increasing vulnerability to disasters and increasing carbon emissions being released into the environment. Achieving Sustainable Development Goal 11 requires integrated urban strategies that promote affordable housing, inclusive planning, cultural heritage protection and reduced effect on the environment. Global initiatives such as the Local2030 Coalition are helping drive progress by coordinating efforts among governments, UN agencies and other partners.</p>
+						<br><br>
 						
 						<!-- https://www.pexels.com/photo/a-drone-shot-of-a-road-and-city-buildings-8299712/ -->
 						<img src="images/introCityTwo.jpg" alt="Picture of a city from an arial view" class="introCityTwo">
 						
-						<p class="ls_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="ls_p">Recent assessments of specific Goal 11 targets show mixed progress. Housing affordability remains a major global issue, with up to 3 billion people affected and significant regional cost disparities. Funding for world heritage protection, though slightly increased, stays far below what is needed, especially in developing countries. Disasters continue to cause extensive damage to infrastructure and essential services each year. Disaster risk reduction has strengthened, however, with most local governments now implementing dedicated strategies.</p>
 					</div>
 				</div>
 			</div>
 			
 		<!-- research preview -->
-			<div class="rPreview box">
+			<div class="rPreview box" id="boxTwo" onmouseover="lightUpTwo()" onmouseout="fadeOutTwo()">
 				<div class="row spacer-top">
 					<div class="col-sm-12">
 					<!-- https://www.pexels.com/photo/road-street-vehicle-bike-1739649/ -->
 						<img src="images/rPreviewBike.jpg" alt="Picture of a bike with cyclists in the background" class="rPreviewBike">
 					
 						<h3 class="ls_p title">Preview</h3>
-						<p class="ls_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p class="ls_p">In exploring sustainable urban development, we examined how cities can advance Goal 11 through clean travel, low-carbon emissions, clean energy and stronger protection of cultural identity. Our research highlighted the growing importance of clean travel systems, renewable energy and reducing urban carbon emissions, particularly as urban populations continue to rise. We also looked at efforts to safeguard heritage sites, ensuring that modernization does not come at the expense of cultural preservation. Together, these focus areas show how integrated, forward-looking urban policies can create cities and communities that are not only more sustainable and energy-efficient but also inclusive, connected, and deeply rooted in their historical and cultural contexts.</p>
 						
 						<a href="overview.html" class="button">Learn more</a>
 					</div>
@@ -128,6 +129,28 @@
 					<span class="visually-hidden">Next</span>
 				  </button>
 				</div>
+				
+			<script>
+				function lightUp(){
+					let targetBox = document.getElementById("boxOne");
+					targetBox.style.opacity = "1.0";
+				}
+				
+				function fadeOut(){
+					let targetBox = document.getElementById("boxOne");
+					targetBox.style.opacity = "";
+				}
+				
+				function lightUpTwo(){
+					let targetBoxTwo = document.getElementById("boxTwo");
+					targetBoxTwo.style.opacity = "1.0";
+				}
+				
+				function fadeOutTwo(){
+					let targetBoxTwo = document.getElementById("boxTwo");
+					targetBoxTwo.style.opacity = "";
+				}
+			</script>
 		
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 		</div>
