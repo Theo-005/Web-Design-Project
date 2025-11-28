@@ -1,6 +1,6 @@
 /* Leila Stowe CSS starts */
 
-/* css for both webpages */
+/* css consistant across both of my webpages */
 .ls_body{
 	background-color:#EFECE3;
 }
@@ -54,7 +54,7 @@
 		opacity:0.7;
 	}
 
-	/* Introduction section */
+	/* css only relivant for my introduction section on my home page*/
 	
 
 	.introCity{
@@ -72,7 +72,7 @@
 	}
 	
 
-	/* Research preview section on the home page*/
+	/* css only relivant for my research preview section on my home page*/
 
 	.rPreviewBike{
 		height:300px;
@@ -82,36 +82,36 @@
 	}
 
 
-	/* image carousel */
+	/* css only relivant for my image carousel on my home page*/
 	.carousel{
 		padding-top:30px;
 		
 	}
 
-	/* research overview page */
+	/* css only relivant for my research summaries on my research overview page*/
 
 	.rWindmills{
-		height:250px;
+		height:270px;
 		width:400px;
 		float:left;
 		padding-right:30px;
 	}
 	
-
+	.rWalk{
+			height:300px;
+			width:450px;
+			float:right;
+			padding-left:30px;
+		}
+	
 	.rBus{
-		height:300px;
-		width:450px;
-		float:right;
-		padding-left:30px;
-	}
-
-
-	.rCity{
-		height:300;
-		width:450px;
+		height:350px;
+		width:455px;
 		float:left;
 		padding-right:30px;
 	}
+
+
 	
 	
 	.rHeritage{

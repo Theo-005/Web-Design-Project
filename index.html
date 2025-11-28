@@ -68,6 +68,7 @@
 				</div>
 			
 		<!-- Introduction piece -->
+		<!-- the code below is in a column of twelve to fill the entire row and includes paraghraphs and images -->
 			
 			<div class="intro box" id="boxOne" onmouseover="lightUp()" onmouseout="fadeOut()">
 				<div class="row spacer-top">
@@ -88,6 +89,8 @@
 			</div>
 			
 		<!-- research preview -->
+		<!-- the code below is also in a column of twelve to fill the entire row and includes a paraghraph, image and a button to navigate to the research overview page -->
+		
 			<div class="rPreview box" id="boxTwo" onmouseover="lightUpTwo()" onmouseout="fadeOutTwo()">
 				<div class="row spacer-top">
 					<div class="col-sm-12">
@@ -103,6 +106,8 @@
 			</div>
 			
 		<!-- images carousel -->
+		<!-- the code below includes an empty column of 2 on either side of a column of 8 containing and image carousel-->
+		
 		<div class="row spacer-top ">
 			<div class="col-sm-2"></div>
 				<div class="col-sm-8">
@@ -135,6 +140,7 @@
 			<div class="col-sm-2"></div>
 		</div>
 			<script>
+			// the code below makes it so that when the mouse is on one of the divs the opacity is at 1 to highlight it and when the mouse is off of it the div's opacity is at 0.7
 				function lightUp(){
 					let targetBox = document.getElementById("boxOne");
 					targetBox.style.opacity = "1.0";

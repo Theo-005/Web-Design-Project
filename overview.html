@@ -65,6 +65,8 @@
 					</div>
 				</div>
 			</div>
+			
+	<!-- The html code below are all rows containing columns of 12 to fill the rows and each column contains code that includes a paragraph preview of the content it leads to, a button to navigate to the relivant research page and a relivant image -->
 	
 		<!-- research one preview -->
 		<div class="research box" id="boxOne" onmouseover="lightUp()" onmouseout="fadeOut()">
@@ -87,12 +89,12 @@
 		<div class="research box" id="boxTwo" onmouseover="lightUpTwo()" onmouseout="fadeOutTwo()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
-				<!-- https://www.pexels.com/photo/bus-on-street-in-jakarta-15246898/ -->
-				    <img src="images/rBus.jpg" alt="An eletric bus going through the city" class="rBus">
+				<!-- https://www.pexels.com/photo/people-walking-on-pedestrian-lane-during-daytime-109919/ -->
+				    <img src="images/rWalk.jpg" alt="A group of people walking across the road" class="rWalk">
 					<br>
 				
 					<h3 class="ls_p title">Clean Travel</h3>
-				    <p class="ls_p">To learn about clean travel, we started by looking at how quickly cities around the world are growing and how this puts pressure on transportation systems. Many cities don’t have enough buses, trains or safe walking and biking paths, which leads to traffic jams, pollution and long, uncomfortable commutes. By studying global reports on urban development, we learned that improving public transport is not just about getting people from one place to another — it’s also about making travel cleaner, safer and more affordable. This research helped us understand why cities need better planning and investment to create travel options that are good for both people and the environment.</p>
+				    <p class="ls_p">To learn about clean travel, we started by looking at how quickly cities around the world are growing and how this puts pressure on transportation systems. As cities grow, many struggle to provide well-designed sidewalks, protected bike lanes and safe street crossings, which makes it harder for people to choose these cleaner options. We studied reports showing that when walking and biking paths are poorly maintained or missing, people often feel forced to use cars, leading to more traffic, pollution and unsafe streets. By looking at how better city planning can encourage active travel, we learned that investing in pedestrian-friendly streets and reliable biking networks not only helps reduce pollution but also improves public health and overall quality of life. This research helped us understand why cities need better planning and investment to create travel options that are good for both people and the environment.</p>
 					
 					<a href="project-two.html" class="button" id="bButton">Learn more</a>
 				</div>
@@ -103,12 +105,12 @@
 		<div class="research box" id="boxThree" onmouseover="lightUpThree()" onmouseout="fadeOutThree()">
 			<div class="row spacer-top">
 			    <div class="col-sm-12">
-				<!-- https://www.pexels.com/photo/skyscrapers-towering-over-park-13919140/ -->
-				    <img src="images/rCity.jpg" alt="A city by a lake lined with trees" class="rCity">
+				<!-- https://www.pexels.com/photo/bus-on-street-in-jakarta-15246898/-->
+				    <img src="images/rBus.jpg" alt="An eletric bus going through the city" class="rBus">
 					<br>
 				
 					<h3 class="ls_p title">Reduced Carbon Emissions</h3>
-				    <p class="ls_p">When researching ways to reduce carbon emissions, we explored how city growth leads to more energy use, more buildings and more vehicles — all of which add to pollution. We found information showing that many cities struggle with problems like overcrowding and weak local governance, which make it harder to control emissions. We also looked at how better planning, such as creating affordable housing close to jobs and improving public services, can help reduce the amount of carbon cities produce. The data on disasters damaging infrastructure also showed us that cities need strong, resilient systems to handle environmental challenges. Altogether, this helped us understand how smarter city planning can make a big difference in lowering carbon emissions.</p>
+				    <p class="ls_p">When researching ways to reduce carbon emissions, we looked closely at how transportation in cities — especially cars and buses — plays a major role in producing pollution. As cities grow, more people rely on private cars to get around, which leads to heavier traffic, higher fuel use and more carbon released into the air. We studied information showing that many cities lack strong public transport systems, so buses are often overcrowded or unreliable, causing even more people to turn to cars. We also explored how better planning, such as improving bus networks, adding cleaner vehicle options and designing cities where people can live closer to work and school, can reduce the need for long car trips. This research helped us understand how improving everyday transportation choices can make a big difference in lowering carbon emissions and creating healthier urban environments</p>
 					
 					<a href="project-three.html" class="button" id="cButton">Learn more</a>
 				</div>
@@ -132,6 +134,7 @@
 		</div>
 		
 		<script>
+		// the code below makes it so that when the mouse is on one of the divs the opacity is at 1 to highlight it and when the mouse is off of it the div's opacity is at 0.7
 				function lightUp(){
 					let targetBox = document.getElementById("boxOne");
 					targetBox.style.opacity = "1.0";
