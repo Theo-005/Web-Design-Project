@@ -58,15 +58,15 @@
 	
 
 	.introCity{
-		height:300px;
-		width:370px;
+		height:270px;
+		width:300px;
 		float:left;
 		padding-right:30px;
 	}
 
 	.introCityTwo{
-		height:300px;
-		width:370px;
+		height:270px;
+		width:320px;
 		float:right;
 		padding-left:30px;
 	}
@@ -75,8 +75,8 @@
 	/* css only relivant for my research preview section on my home page*/
 
 	.rPreviewBike{
-		height:300px;
-		width:370px;
+		height:270px;
+		width:320px;
 		float:right;
 		padding-left:30px;
 	}
@@ -91,30 +91,30 @@
 	/* css only relivant for my research summaries on my research overview page*/
 
 	.rHousing{
-		height:270px;
-		width:370px;
+		height:230px;
+		width:320px;
 		float:left;
 		padding-right:30px;
 	}
 	
 	.rCity{
-			height:400px;
-			width:370px;
+			height:370px;
+			width:320px;
 			float:right;
 			padding-left:30px;
 		}
 	
 	.rBus{
 		height:350px;
-		width:375px;
+		width:320px;
 		float:left;
 		padding-right:30px;
 	}
 
 
 	.rHeritage{
-		height:450px;
-		width:370px;
+		height:420px;
+		width:320px;
 		float:right;
 		padding-left:30px;
 	}
