@@ -59,14 +59,14 @@
 
 	.introCity{
 		height:300px;
-		width:400px;
+		width:370px;
 		float:left;
 		padding-right:30px;
 	}
 
 	.introCityTwo{
 		height:300px;
-		width:450px;
+		width:370px;
 		float:right;
 		padding-left:30px;
 	}
@@ -76,7 +76,7 @@
 
 	.rPreviewBike{
 		height:300px;
-		width:450px;
+		width:370px;
 		float:right;
 		padding-left:30px;
 	}
@@ -92,31 +92,29 @@
 
 	.rHousing{
 		height:270px;
-		width:400px;
+		width:370px;
 		float:left;
 		padding-right:30px;
 	}
 	
 	.rCity{
-			height:470px;
-			width:450px;
+			height:400px;
+			width:370px;
 			float:right;
 			padding-left:30px;
 		}
 	
 	.rBus{
 		height:350px;
-		width:455px;
+		width:375px;
 		float:left;
 		padding-right:30px;
 	}
 
 
-	
-	
 	.rHeritage{
-		height:500px;
-		width:450px;
+		height:450px;
+		width:370px;
 		float:right;
 		padding-left:30px;
 	}
